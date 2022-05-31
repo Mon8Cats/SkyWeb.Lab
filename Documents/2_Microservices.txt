@@ -1,0 +1,25 @@
+1) What are microservies?
+Small, independent, loosly coupled services
+Separate codebase
+Deployed independently 
+Own database 
+Well-defined APIs
+Technology agnostic 
+
+2) Monolithic Architecture 
+Single codebase
+Easy to develop, debug, deployments
+Complexity (big codebase)
+Hard to maintenene 
+Challenge of making changes 
+Inability to apply new technology 
+
+3) Micsrovervices Architecture 
+Independent services 
+Scalability 
+Technology diversity
+Agility
+Small, focused teams 
+Challenge of transaction management and traceability
+
+4) Monolithic vs Microsevices Architecture 

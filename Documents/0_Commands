@@ -1,0 +1,5 @@
+dotnet new -l 
+dotnet new gitignore 
+
+src/
+dotnet new sln -n SkyWeb.Lab 

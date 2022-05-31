@@ -1,0 +1,14 @@
+1) Docker and Container 
+Developing, shipping, running applications 
+Reduce tiem to production 
+Run anywhere 
+Container packages code and dependencies 
+
+2) Taxonomy in Docker 
+Registry : Docker Hub Registry, Azure Container Registry 
+Images 
+Container 
+
+Dockerfile build docker image 
+Docker image run docker container 
+Docker container ... 
