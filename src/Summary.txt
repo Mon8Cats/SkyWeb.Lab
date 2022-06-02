@@ -1,0 +1,39 @@
+docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
+docker-compose -f docker-compose.yml -f docker-compose.override.yml down 
+docker ps
+
+
+docker ps -aq // a: all, q: display only IDs
+docker stop $(docker ps -aq)
+docker rm $(docker ps -aq) 
+docker rmi $(docker images -q)
+docker images
+docker system prune
+docker volume prune
+docker pull redis
+docker run --name some-redis -d redis
+docker run --name some-redis -d redis redis-server --save 60 1 --loglevel warning
+docker run -d -p 3000:3000 mongoclient/mongoclient
+docker run -d -p 6379:6379 --name basket-redis redis 
+docker exec -it basket-redis /bin/bash 
+docker stop contanierId 
+docker images 
+
+
+
+redis-cli 
+ping // return PONG  
+set key value 
+get key // return "value"
+set name steve 
+get name  // return "steve"
+
+You cannot remove a running container
+image is being used by running container 
+
+
+dotnet sln list => list project 
+
+
+aaa
+

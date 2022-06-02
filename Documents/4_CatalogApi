@@ -2,3 +2,28 @@ Catalog.Api + MongoDb
 
 1. Create a github Repository
 2. Create a new solution 
+3. Create a new project
+4. Create a docker container for MongoDb 
+
+
+
+
+
+ASP.NET Core Web API
+REST API, CRUD operations
+    GET, POST, PUT, DELETE
+MongoDB database 
+Repository pattern 
+    Presentation Layer
+    Business Logic Layer
+    Data Access Layer
+Docker Compose 
+Data Driven CRUD 
+    Application Layer -> Domain Model Layer -> Infrastructure Layer 
+
+Nuget Packages:
+    MongoDB.Driver 
+
+Repository Pattern 
+    Abstraction Layer between business layer and database context
+    Unit tests can mock data to faciliate testing

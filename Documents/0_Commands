@@ -1,5 +1,37 @@
+0) git
 dotnet new -l 
 dotnet new gitignore 
+git init 
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Mon8Cats/SkyWeb.Lab.git
+git push -u origin main
 
-src/
+1) src/
 dotnet new sln -n SkyWeb.Lab 
+
+
+2) src/Catalog
+dotnet new webapi -n Catalog.Api
+dotnet run
+http://localhost:5800/swagger/index.html 
+
+
+3) MongoDB 
+binary json, bson 
+docker hub 
+docker ps
+docker run -d -p 27017:27017 --name shopping-mongo mongo
+docker logs -f shopping-mongo 
+docker exec -it shopping-mongo /bin/bash
+    ls
+    mongo
+        show dbs 
+        use CatalogDb
+            show collections 
+            db.createCollection('Products')
+            show collections 
+            db.Products.insertMany([{...}, {...}])
+            db.Products.find({}).pretty()
+            db.Products.remove({})
